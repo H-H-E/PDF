@@ -1,6 +1,6 @@
 {
     "functions": {
-      "app/document/[id]": {
+      "app/document/": {
         "memory": 1028
       }
     }
