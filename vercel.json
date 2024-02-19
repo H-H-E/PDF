@@ -1,6 +1,6 @@
 {
     "functions": {
-      "app/document/*.tsx": {
+      "app/document/[id]": {
         "memory": 1028
       }
     }
