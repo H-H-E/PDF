@@ -1,7 +1,7 @@
 {
     "functions": {
-      "api/document/[id].js": {
-        "memory": 3008
+      "/document/[id]": {
+        "memory": 1028
       }
     }
   }
