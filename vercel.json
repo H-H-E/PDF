@@ -5,7 +5,7 @@
       "memory": 1028
  
   },
-  "app/document/[id].js": {
+  "app/*.js": {
       "maxDuration": 300,
       "memory": 1028
     }
