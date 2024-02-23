@@ -1,11 +1,11 @@
 {
   "version": 2,
   "functions": {
-    "api/document/[id].js": {
+    "app/api/document/:id": {
       "memory": 1024,
       "maxDuration": 300
     },
-    "api/ingestPdf.js": {
+    "app/api/ingestPdf.js": {
       "maxDuration": 300
     }
   }
