@@ -5,7 +5,7 @@
       "memory": 1028
  
   },
-  "app/document/[id]/document-client.tsx": {
+  "app/document/document-client.tsx": {
       "maxDuration": 300,
       "memory": 1028
     }
