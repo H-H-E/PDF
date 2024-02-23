@@ -1,14 +1,7 @@
 {
   "functions": {
-    "app/api/chat/route.ts": {
-      "maxDuration": 300,
-      "memory": 1024
-    },
+   
     "app/api/ingestPdf/route.ts": {
-      "maxDuration": 300,
-      "memory": 1024
-    },
-    "app/document/[id].js": {
       "maxDuration": 300,
       "memory": 1024
     }
