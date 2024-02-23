@@ -11,6 +11,6 @@
     "app/document/[id].js": {
       "maxDuration": 300,
       "memory": 1024
-    },
+    }
   }
 }
