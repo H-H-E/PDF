@@ -5,7 +5,11 @@
       "memory": 1028
  
   },
-  "app/*.js": {
+  "app/*.ts": {
+      "maxDuration": 300,
+      "memory": 1028
+    },
+    "app/*.tsx": {
       "maxDuration": 300,
       "memory": 1028
     }
