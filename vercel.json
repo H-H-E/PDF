@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/ingestPdf": {
+    "app/api/ingestPdf/route.ts": {
       "maxDuration": 300 
   }
 }}
