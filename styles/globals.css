@@ -26,19 +26,22 @@
 
 .bg_linear {
   background: linear-gradient(
-    95deg,
-    #101023 5.97%,
-    rgba(15, 15, 33, 0.97) 52.2%,
-    #0e0e20 91.78%
+    90deg,
+    #020024 0%, /* This is a direct conversion of rgba(2,0,36,1), pretty much the same dark tone. */
+    #090979 34%, /* rgba(9,9,121,1) converted to hex, keeping the essence of a deep blue. */
+    #fef8ff 100% /* rgba(254,248,255,1) converted to hex, a very light, almost white color. */
   );
 }
+
 .bg_linear_gpt {
   background: linear-gradient(
-    85deg,
-    rgba(252, 252, 252, 0.44) 1.85%,
-    rgba(242, 243, 248, 0.53) 89.3%
+    90deg,
+    #020024 0%, /* This is a direct conversion of rgba(2,0,36,1), pretty much the same dark tone. */
+    #090979 34%, /* rgba(9,9,121,1) converted to hex, keeping the essence of a deep blue. */
+    #fef8ff 100% /* rgba(254,248,255,1) converted to hex, a very light, almost white color. */
   );
 }
+
 .drop_shadow {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
 }
