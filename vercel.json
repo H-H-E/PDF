@@ -1,10 +1,10 @@
 {
   "functions": {
-    "api/chat/route.ts": {
+    "app/api/chat/route.ts": {
       "maxDuration": 300,
       "memory": 1024
     },
-    "api/ingestPdf/route.ts": {
+    "app/api/ingestPdf/route.ts": {
       "maxDuration": 300,
       "memory": 1024
     },
