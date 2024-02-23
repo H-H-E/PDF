@@ -1,39 +1,16 @@
 {
   "functions": {
-    "app/api/ingestPdf/route.ts": {
+    "api/ingestPdf/**": {
       "maxDuration": 300,
-      "memory": 1028
- 
-  },  
-  "app/api/chat/route.ts": {
-    "maxDuration": 300,
-    "memory": 1028
-
-},
-  "app/*.ts": {
-      "maxDuration": 300,
-      "memory": 1028
+      "memory": 1024
     },
-    "app/*/*.js": {
+    "api/chat/**": {
       "maxDuration": 300,
-      "memory": 1028
+      "memory": 1024
     },
-    "app/document/*.tsx": {
+    "api/**": {
       "maxDuration": 300,
-      "memory": 1028
-    }, 
-    "app/dashboard/*.tsx": {
-      "maxDuration": 300,
-      "memory": 1028
-    },
-    "app/document/*.js": {
-      "maxDuration": 300,
-      "memory": 1028
-    }, 
-    "app/dashboard/*.js": {
-      "maxDuration": 300,
-      "memory": 1028
+      "memory": 1024
     }
-  
   }
 }
