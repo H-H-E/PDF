@@ -1,9 +1,12 @@
 {
+  "version": 2,
   "functions": {
-   
-    "app/api/ingestPdf/route.ts": {
-      "maxDuration": 300,
-      "memory": 1024
+    "api/document/[id].js": {
+      "memory": 1024,
+      "maxDuration": 300
+    },
+    "api/ingestPdf.js": {
+      "maxDuration": 300
     }
   }
 }
