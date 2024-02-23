@@ -9,9 +9,22 @@
       "maxDuration": 300,
       "memory": 1028
     },
-    "app/*.tsx": {
+    "app/document/*.tsx": {
+      "maxDuration": 300,
+      "memory": 1028
+    }, 
+    "app/dashboard/*.tsx": {
+      "maxDuration": 300,
+      "memory": 1028
+    },
+    "app/document/*.js": {
+      "maxDuration": 300,
+      "memory": 1028
+    }, 
+    "app/dashboard/*.js": {
       "maxDuration": 300,
       "memory": 1028
     }
+  
   }
 }
