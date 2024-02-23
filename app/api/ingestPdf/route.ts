@@ -7,6 +7,8 @@ import { PDFLoader } from 'langchain/document_loaders/fs/pdf';
 import prisma from '@/utils/prisma';
 import { getAuth } from '@clerk/nextjs/server';
 
+
+
 const PINECONE_INDEX_NAME = process.env.PINECONE_INDEX_NAME ?? '';
 
 const pinecone = new Pinecone({

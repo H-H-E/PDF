@@ -1,9 +1,0 @@
-{
-    "functions": {
-      "pages/document/[id].tsx": {
-        "memory": 1028,
-        "includeFiles": "src/utils/**",
-        "excludeFiles": "node_modules/**"
-      }
-    }
-  }

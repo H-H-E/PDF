@@ -1,0 +1,6 @@
+{
+  "functions": {
+    "api/ingestPdf/*.ts": {
+      "maxDuration": 300 
+  }
+}}
